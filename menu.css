@@ -102,7 +102,7 @@ body{
         width: 350px;
         height: 700px;
     }
-        .menubtn{
+    .menubtn{
         font-size: 20px;
         margin: 10px;
         padding: 5px 10px 5px 10px;
@@ -115,11 +115,12 @@ body{
     .menuclass{
         position: relative;
         display: inline-block;
-        left: 300px;
+        left: 350px;
     }
     .nav{
         display: none;
         position: absolute;
+        right: 0px;
     }
     .menuclass:hover .nav{
         display: block;
