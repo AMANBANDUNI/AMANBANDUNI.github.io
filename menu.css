@@ -102,4 +102,26 @@ body{
         width: 350px;
         height: 700px;
     }
+        .menubtn{
+        font-size: 20px;
+        margin: 10px;
+        padding: 5px 10px 5px 10px;
+        border: none;
+        background-image: url(menu.jpg);
+        color: white;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    .menuclass{
+        position: relative;
+        display: inline-block;
+        left: 300px;
+    }
+    .nav{
+        display: none;
+        position: absolute;
+    }
+    .menuclass:hover .nav{
+        display: block;
+    }
 }
