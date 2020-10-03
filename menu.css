@@ -85,6 +85,10 @@ body{
     height: 478px;
 }
 
+.menubtn{
+    display: none;
+}
+
 @media only screen and (max-width: 720px){
     .iframe{
         margin-top: 40%;
@@ -103,6 +107,7 @@ body{
         height: 700px;
     }
     .menubtn{
+        display: block;
         font-size: 20px;
         margin: 10px;
         padding: 5px 10px 5px 10px;
